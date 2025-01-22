@@ -1,0 +1,18 @@
+export const EXCLUDED_OPERATIONS = [
+  'GetClientConfig',
+  'GetCurrentUser',
+  'GetWorkspaceFromInviteHash',
+  'Track',
+  'CheckUserExists',
+  'Challenge',
+  'Verify',
+  'SignUp',
+  'RenewToken',
+  'EmailPasswordResetLink',
+  'ValidatePasswordResetToken',
+  'UpdatePasswordViaResetToken',
+  'IntrospectionQuery',
+  'ExchangeAuthorizationCode',
+  'GetAuthorizationUrl',
+  'FindAvailableSSOIdentityProviders',
+];
